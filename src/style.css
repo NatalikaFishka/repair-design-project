@@ -257,6 +257,19 @@ input[type=checkbox]:checked + label::before {
   background-color: #E3B873;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #E3B873;
+}
+
 header {
   background-color: #131313;
   display: -ms-grid;
