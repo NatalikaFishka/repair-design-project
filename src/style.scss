@@ -307,6 +307,9 @@ header {
         &:hover {
           cursor: pointer;
         }
+        a {
+          color: $primary-text-color;
+        }
       }
 
       .header__navigation__btn.button {      
@@ -1621,6 +1624,9 @@ header {
         align-self: center;
         &:hover {
           cursor: pointer;
+        }
+        a {
+          color: $primary-text-color;
         }
       }
 

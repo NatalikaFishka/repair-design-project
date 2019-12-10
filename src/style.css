@@ -344,6 +344,10 @@ header .header .header__navigation .header__navigation__phone:hover {
   cursor: pointer;
 }
 
+header .header .header__navigation .header__navigation__phone a {
+  color: #E3B873;
+}
+
 header .header .header__navigation .header__navigation__btn.button {
   padding: 0.7rem;
   margin: 0 1.5rem;
@@ -2131,6 +2135,10 @@ header .header-instagram .header-instagram__line div {
 
 .footer .footer__navigation .footer__navigation__phone:hover {
   cursor: pointer;
+}
+
+.footer .footer__navigation .footer__navigation__phone a {
+  color: #E3B873;
 }
 
 .footer .footer__navigation .footer__navigation__btn.button {
