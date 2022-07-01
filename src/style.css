@@ -257,6 +257,19 @@ input[type=checkbox]:checked + label::before {
   background-color: #E3B873;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #E3B873;
+}
+
 header {
   background-color: #131313;
   display: -ms-grid;
@@ -329,6 +342,10 @@ header .header .header__navigation .header__navigation__phone {
 
 header .header .header__navigation .header__navigation__phone:hover {
   cursor: pointer;
+}
+
+header .header .header__navigation .header__navigation__phone a {
+  color: #E3B873;
 }
 
 header .header .header__navigation .header__navigation__btn.button {
@@ -2118,6 +2135,10 @@ header .header-instagram .header-instagram__line div {
 
 .footer .footer__navigation .footer__navigation__phone:hover {
   cursor: pointer;
+}
+
+.footer .footer__navigation .footer__navigation__phone a {
+  color: #E3B873;
 }
 
 .footer .footer__navigation .footer__navigation__btn.button {

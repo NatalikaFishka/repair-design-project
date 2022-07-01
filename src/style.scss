@@ -248,6 +248,17 @@ body {
         background-color: $primary-color;
       }
 
+    a {
+      color: $secondary-text-color;
+      text-decoration: none;
+      &:visited {
+        color: $secondary-text-color;
+      }
+      &:hover {
+        color: $primary-text-color;
+      }
+    }
+
 // Form shared block end
 
 header {
@@ -295,6 +306,9 @@ header {
         align-self: center;
         &:hover {
           cursor: pointer;
+        }
+        a {
+          color: $primary-text-color;
         }
       }
 
@@ -1610,6 +1624,9 @@ header {
         align-self: center;
         &:hover {
           cursor: pointer;
+        }
+        a {
+          color: $primary-text-color;
         }
       }
 
